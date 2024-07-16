@@ -92,7 +92,7 @@ namespace WebApi.Controllers
 
             db.Products.Remove(product); 
             db.SaveChanges(); 
-            return Ok(product); 
+            return Ok(); 
         }
 
         
